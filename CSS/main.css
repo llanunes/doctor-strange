@@ -1,0 +1,26 @@
+main{
+    background-color: rgb(117, 26, 10);
+    flex-grow: 1;
+    display: flex;
+}
+
+.content-container{
+    background-color: turquoise;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social.content{
+    background-color: yellow;
+    width: 48px;
+}
+
+.content-container h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 8rem;
+    line-height: ;
+}

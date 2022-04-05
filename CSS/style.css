@@ -23,5 +23,6 @@ body {
         background-color: #0009; 
         background-image: url(../img/background.png);
         background-blend-mode: darken;
+        background-position: 90%;
     }
  }

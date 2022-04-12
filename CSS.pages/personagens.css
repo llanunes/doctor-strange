@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
 body {
     height: 130vh;
     background:
@@ -9,5 +11,40 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 128px;
-    background-color: #0009;
+    background-color: rgba(0, 0, 0, 0.808);
+    overflow: hidden;
+}
+
+.card-items{
+    background-color: #ffffff93;
+    padding: 20px;
+    text-align: center;
+    transition: 400ms ease-in-out;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 5px;
+    margin-top: 250px;
+}
+
+p{
+    display: flex;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Rubik Bubbles";
+    font-size: 20px;
+}
+
+.card-items:hover{
+    background-color: rgba(255, 0, 0, 0.377);
+}
+
+.img{
+    padding: 2px;
+    background-color: black;
 }

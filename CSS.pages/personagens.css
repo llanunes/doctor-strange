@@ -28,7 +28,7 @@ body {
     gap: 50px;
     justify-content: center;
     padding-top: 5px;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 p{
@@ -48,3 +48,12 @@ p{
     padding: 2px;
     background-color: black;
 }
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 2px #000;
+    color: #ffff;
+    padding-top: 7%;
+}    

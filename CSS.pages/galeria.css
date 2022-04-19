@@ -1,0 +1,22 @@
+body {
+    height: 130vh;
+    background:
+                url(../img/backgroundgaleria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    padding: 0 128px;
+    background-color: rgba(0, 0, 0, 0.808);
+    overflow: hidden;
+}
+
+.img-items{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+}
+
